@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+.imgHeader {
+    background-image: url("https://avatars.mds.yandex.net/i?id=b16d66324d15dad751bc17f2b683b140ac4b6a49-9056011-images-thumbs&n=13");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
